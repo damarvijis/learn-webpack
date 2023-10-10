@@ -1,1 +1,1 @@
-es6 udah ga perlu module bundler, udah ada bawaan dari javascript (script dengan type module). tapi es6 module harus dijalanin lewat server (live server)
+https://webpack.js.org/api/cli/ command / perintah jalanin webpack

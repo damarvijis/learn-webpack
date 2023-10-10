@@ -2,6 +2,7 @@ import { run } from "./app/app.js";
 import { AlertService } from "./app/alert.service.js";
 import { CalculatorService } from "./app/calculator.service.js";
 import { JokesService } from "./app/jokes.service.js";
+import css from "./index.css"
 
 const alertService = new AlertService();
 const calculatorService = new CalculatorService();
