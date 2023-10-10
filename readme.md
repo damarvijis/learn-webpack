@@ -1,2 +1,1 @@
-run webpack -> npm run build
-run app (with live server / open in browser)
+es6 udah ga perlu module bundler, udah ada bawaan dari javascript (script dengan type module). tapi es6 module harus dijalanin lewat server (live server)
