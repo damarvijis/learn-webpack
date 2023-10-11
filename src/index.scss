@@ -7,3 +7,11 @@ $danger: salmon;
 body {
   background-color: $bg-color;
 }
+
+.hero {
+  width: 300px;
+  object-fit: contain;
+  height: 200px;
+  display: block;
+  margin: 20px auto;
+}

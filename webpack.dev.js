@@ -1,14 +1,26 @@
 const path = require("path");
 const { merge } = require('webpack-merge');
 const config = require("./webpack.base")
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = merge(config, {
   mode: 'development',
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'src'),
+    },
+    compress: true,
+    port: 9000,
+    liveReload: true
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
+    assetModuleFilename: "img/[name][ext]",
     filename: 'main.js'
   },
-  watch: true,
+  plugins: [
+    new MiniCssExtractPlugin()
+  ],
   devtool: false
 });
 

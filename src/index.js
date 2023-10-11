@@ -1,5 +1,5 @@
+import * as vendor from "./vendor"
 import css from "./index.scss"
-import * as bootstrap from "bootstrap"
 import { run } from "./app/app.js";
 import { AlertService } from "./app/alert.service.js";
 import { CalculatorService } from "./app/calculator.service.js";
