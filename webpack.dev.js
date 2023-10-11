@@ -16,7 +16,7 @@ module.exports = merge(config, {
   output: {
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: "img/[name][ext]",
-    filename: 'main.js'
+    filename: '[name].js'
   },
   plugins: [
     new MiniCssExtractPlugin()

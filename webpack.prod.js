@@ -7,7 +7,7 @@ module.exports = merge(config, { // cara 2 buat gabungin config
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.[contenthash].js', // caching
+    filename: '[name].[contenthash].js', // caching
     assetModuleFilename: "img/[name]-[hash][ext]", // hash buat caching
     clean: true // bersihin folder dist setiap generate baru.
   },
