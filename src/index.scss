@@ -1,0 +1,17 @@
+$bg-color: rgb(176, 226, 243);
+$primary: lightblue;
+$danger: salmon;
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background-color: $bg-color;
+}
+
+.hero {
+  width: 300px;
+  object-fit: contain;
+  height: 200px;
+  display: block;
+  margin: 20px auto;
+}
